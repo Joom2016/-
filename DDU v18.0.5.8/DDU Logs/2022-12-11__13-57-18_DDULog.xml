@@ -1,0 +1,2212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DisplayDriverUninstaller Version="18.0.5.8">
+	<LogEntries>
+		<Event>
+			<Time>12/11/2022 1:57:18 PM</Time>
+			<Message>The following paths are detected.</Message>
+			<Values Separator=" = ">
+				<KvP>
+					<Key>[Found] AppExeFile</Key>
+					<Value>D:\桌面\DDU v18.0.5.8\Display Driver Uninstaller.exe</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] AppBase</Key>
+					<Value>D:\桌面\DDU v18.0.5.8\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Settings</Key>
+					<Value>D:\桌面\DDU v18.0.5.8\Settings\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Logs</Key>
+					<Value>D:\桌面\DDU v18.0.5.8\DDU Logs\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Language</Key>
+					<Value>D:\桌面\DDU v18.0.5.8\Settings\Languages\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] ProgramFiles</Key>
+					<Value>C:\Program Files\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] ProgramFilesx86</Key>
+					<Value>C:\Program Files (x86)\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] Roaming</Key>
+					<Value>C:\ProgramData\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Not found] AppBaseRoaming</Key>
+					<Value>C:\ProgramData\DisplayDriverUninstaller\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] SystemDrive</Key>
+					<Value>C:\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] WinDir</Key>
+					<Value>C:\WINDOWS\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] UserPath</Key>
+					<Value>C:\Users\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] System32</Key>
+					<Value>C:\WINDOWS\system32\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] SysWOW64</Key>
+					<Value>C:\WINDOWS\SysWOW64\</Value>
+				</KvP>
+			</Values>
+		</Event>
+		<Error>
+			<Time>12/11/2022 1:57:24 PM</Time>
+			<Message>操作超时</Message>
+			<ExceptionData>
+				<Message>操作超时</Message>
+				<TargetSite>GetResponse</TargetSite>
+				<Source>System</Source>
+				<StackTrace>   at System.Net.HttpWebRequest.GetResponse()
+   at Display_Driver_Uninstaller.CheckUpdate.CheckUpdatesThread(Version currentVersion, Boolean CheckUpdate) in C:\Users\ghisl\OneDrive\Documents\Programmation\wpf\display-drivers-uninstaller\display-driver-uninstaller\Display Driver Uninstaller\CheckUpdate.vb:line 34</StackTrace>
+			</ExceptionData>
+		</Error>
+		<Error>
+			<Time>12/11/2022 1:57:33 PM</Time>
+			<Message>操作超时</Message>
+			<ExceptionData>
+				<Message>操作超时</Message>
+				<TargetSite>GetResponse</TargetSite>
+				<Source>System</Source>
+				<StackTrace>   at System.Net.HttpWebRequest.GetResponse()
+   at Display_Driver_Uninstaller.CheckUpdate.CheckUpdatesThread(Version currentVersion, Boolean CheckUpdate) in C:\Users\ghisl\OneDrive\Documents\Programmation\wpf\display-drivers-uninstaller\display-driver-uninstaller\Display Driver Uninstaller\CheckUpdate.vb:line 34</StackTrace>
+			</ExceptionData>
+		</Error>
+		<Event>
+			<Time>12/11/2022 1:57:33 PM</Time>
+			<Message>System Information</Message>
+			<Values Separator=" : ">
+				<KvP>
+					<Key>DDU Version</Key>
+					<Value>18.0.5.8</Value>
+				</KvP>
+				<KvP>
+					<Key>OS</Key>
+					<Value>Windows 10</Value>
+				</KvP>
+				<KvP>
+					<Key>Win 10 1809+ ?</Key>
+					<Value>True</Value>
+				</KvP>
+				<KvP>
+					<Key>Architecture</Key>
+					<Value>x64</Value>
+				</KvP>
+				<KvP>
+					<Key>UserRights</Key>
+					<Value>Admin</Value>
+				</KvP>
+				<KvP>
+					<Key>Arguments</Key>
+					<Value>&lt;empty&gt;</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>GPU #0001</Key>
+					<Value>Intel(R) HD Graphics 5500</Value>
+				</KvP>
+				<KvP>
+					<Key>GPU DeviceID</Key>
+					<Value>pci\ven_8086&amp;dev_1616&amp;subsys_225a103c</Value>
+				</KvP>
+				<KvP>
+					<Key>Vbios</Key>
+					<Value>Intel Video BIOS</Value>
+				</KvP>
+				<KvP>
+					<Key>Detected Driver(s) Version(s)</Key>
+					<Value>20.19.15.5126</Value>
+				</KvP>
+				<KvP>
+					<Key>INF name</Key>
+					<Value>oem60.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>INF section</Key>
+					<Value>iBDWM_w10</Value>
+				</KvP>
+				<KvP />
+			</Values>
+		</Event>
+		<Warning>
+			<Time>12/11/2022 1:57:33 PM</Time>
+			<Message>We are not in Safe Mode</Message>
+		</Warning>
+		<Event>
+			<Time>12/11/2022 1:57:33 PM</Time>
+			<Message>The following third-party driver packages are installed on this computer</Message>
+			<Values Separator=" = ">
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem0.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microchip</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>HIDClass</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem1.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem10.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem100.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem101.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem102.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem103.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem104.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem105.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem106.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem107.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem108.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem109.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem11.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel(R) Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>USB</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem110.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem111.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem112.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem113.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem114.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem115.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem116.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem117.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem118.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem119.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem12.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SCSIAdapter</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem120.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem121.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem122.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem123.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem124.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem125.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem126.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Synaptics FP Sensors</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Biometric</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem127.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem128.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem129.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem13.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem130.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem131.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem132.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem133.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem134.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem135.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem136.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem137.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem138.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem139.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Bluetooth</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem14.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel(R) Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>USB</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem140.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem141.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem142.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem143.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem144.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem145.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem146.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem147.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem148.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem149.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem15.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem150.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem151.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem152.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem153.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem154.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem155.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem156.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem157.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel(R) Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem158.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem159.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem16.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem160.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>HP Development Company, L.P.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem161.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>HP</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>HIDClass</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem162.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem163.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Nmap Project</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>NetService</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem164.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Extension</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem165.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem166.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>HP Development Company, L.P.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Keyboard</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem167.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>HP Development Company, L.P.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Extension</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem168.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Extension</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem17.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel(R) Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>USB</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem18.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Synaptics</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Mouse</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem19.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>INTEL</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>USB</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem2.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel(R) Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>USB</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem20.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>STMicroelectronics</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Ports</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem21.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microchip</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem22.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>HDC</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem23.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>USB</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem24.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Synaptics</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem25.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>HDC</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem26.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem27.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem28.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem29.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Synaptics</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Mouse</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem3.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem30.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MTD</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem31.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem32.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem33.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MTD</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem34.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>HP</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem35.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem36.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>wch.cn</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Ports</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem37.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel(R) Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem38.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Nmap Project</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>NetService</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem39.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem4.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconduct Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MTD</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem40.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem41.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel(R) Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem42.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem43.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>INTEL</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem44.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem45.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem46.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem47.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem48.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Synaptics</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem49.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem5.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem50.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem51.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>INTEL</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem52.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem53.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem54.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Synaptics FP Sensors</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Biometric</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem55.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem56.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Nmap Project</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>NetService</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem57.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>HP</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>USB</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem58.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem59.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem6.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem60.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Display</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem61.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem62.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem63.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem64.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem65.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem66.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem67.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem68.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem69.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem7.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem70.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem71.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem72.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem73.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem74.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem75.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem76.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem77.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem78.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem79.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem8.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem80.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem81.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem82.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem83.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem84.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem85.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem86.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem87.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem88.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem89.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem9.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconduct Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MTD</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem90.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem91.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem92.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem93.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem94.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem95.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Image</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem96.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem97.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem98.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem99.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+			</Values>
+		</Event>
+		<Event>
+			<Time>12/11/2022 1:57:56 PM</Time>
+			<Message>Trying to impersonate the SYSTEM account... SUCCESS !</Message>
+			<Values Separator=" : ">
+				<KvP>
+					<Key>Number of process to check</Key>
+					<Value>189</Value>
+				</KvP>
+				<KvP>
+					<Key>QQPCRTP</Key>
+					<Value>S-1-5-18</Value>
+				</KvP>
+				<KvP>
+					<Key>QQPCRTP</Key>
+					<Value>SYSTEM account impersonalisation SUCCESS</Value>
+				</KvP>
+			</Values>
+		</Event>
+		<Event>
+			<Time>12/11/2022 1:57:56 PM</Time>
+			<Message>Reverting the Impersonalisation is successful !</Message>
+		</Event>
+		<Event>
+			<Time>12/11/2022 1:57:59 PM</Time>
+			<Message>&gt;&gt; Successfully saved log to file!</Message>
+		</Event>
+	</LogEntries>
+</DisplayDriverUninstaller>
